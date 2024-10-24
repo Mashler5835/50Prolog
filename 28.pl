@@ -5,8 +5,8 @@
 % //Prolog
 % Ordena una lista de listas de acuerdo con
 %//Programa28
-%
-%Ordenar una lista de listas de acuerdo con la longitud de las sublistas.
+% Ordena una lista de listas de acuerdo con la longitud de las sublistas.
+lsort(L, S) :- map_list_to_pairs(length, L, P), keysort(P, SP), pairs_values(SP, S).
 %class Program
 %{
 %    static void Main()
