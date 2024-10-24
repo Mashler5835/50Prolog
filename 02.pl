@@ -1,5 +1,5 @@
 
-% //Programa 2.pl
+% //Programa 02.pl
 % //Nombre:Bejarano Duque Antoine 21211918
 % //Fechas:23/oct/2024
 % //Encontrar el penultimo elemento de una lista
